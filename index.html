@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <div class="mainbody">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://cdn2.hubspot.net/hubfs/3373571/qwilr-logo-dot-5-1.png" alt="">
+                <h4>APPLE</h4>
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="active">Home</li>
+                    <li class="">About Us</li>
+                    <li>Contact</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+            <div class="rightside">
+                <button>Login</button>
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <div class="section-1">
+            <div class="leftside">
+                <div class="details">
+                    <h4>Apple Introduce</h4>
+                    <h1>Iphone 13</h1>
+                    <p>Featuring a sleek and durable design, an advanced new dual-camera system for improved photos and videos in low light, and introducing Cinematic mode</p>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="model">
+                    <model-viewer id="iPhone" src="/assets/iphone_13_pro_3d_model.glb"
+                    min-camera-orbit="220deg 40deg 0deg"
+                    max-camera-orbit="225deg 45deg 0deg"
+                    auto-rotate
+                    rotation-per-second="10deg"
+                    
+                    ></model-viewer>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="innersection">
+                <div class="card">
+                    <div class="leftside">
+                        <div class="model">
+                            <model-viewer id="iPhone" src="/assets/iphone_13_pro_3d_model.glb"
+                            camera-orbit="-35deg 40deg 0deg"
+                            ></model-viewer>
+                            
+                        </div>
+                    </div>
+                    <div class="rightside">
+                        <h2>Technical Description</h2>
+                        <p>iPhone 13 and iPhone 13 mini will be available in pink, blue, midnight, starlight, and (PRODUCT)RED,1 with pre-orders beginning Friday, September 17, and availability beginning Friday, September 24. iPhone 13 and iPhone 13 mini have been redesigned on the inside and out, and come in five gorgeous colors featuring a durable flat-edge design and an elegant aluminum frame. The 6.1-inch and 5.4-inch displays2 feature Ceramic Shield on the front, exclusive to iPhone and tougher than any smartphone glass.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="innersection">
+                <div class="card">
+                    <div class="leftside">
+                        <div class="model">
+                            <model-viewer id="iPhone" src="/assets/iphone_13_pro_3d_model.glb"
+                            camera-orbit="90deg 90deg 90deg"
+                            camera-controls
+                            image="legacy"
+                            ></model-viewer>
+                            
+                        </div>
+                    </div>
+                    <div class="rightside">
+                        <h2>Technical Description</h2>
+                        <p>iPhone 13 and iPhone 13 mini will be available in pink, blue, midnight, starlight, and (PRODUCT)RED,1 with pre-orders beginning Friday, September 17, and availability beginning Friday, September 24. iPhone 13 and iPhone 13 mini have been redesigned on the inside and out, and come in five gorgeous colors featuring a durable flat-edge design and an elegant aluminum frame. The 6.1-inch and 5.4-inch displays2 feature Ceramic Shield on the front, exclusive to iPhone and tougher than any smartphone glass.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
